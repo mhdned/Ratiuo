@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import 'tailwindcss';
+
+@theme {
+  /* Typography */
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Space Grotesk', sans-serif;
+
+  /* Colors */
+  --color-primary-50: #ffdd00;
+  --color-primary-100: #ffdd00;
+  --color-primary-500: #ffd000;
+  --color-primary-600: #ffc300;
+  --color-primary-700: #ffb700;
+
+  --color-disabled-500: #adb5bd;
+
+  --color-secondary-500: #ff7b00;
+
+  --color-success-500: #06d6a0;
+  --color-warning-500: #ffd166;
+  --color-danger-500: #ef476f;
+
+  --color-background: #000814;
+  --color-foreground: #001d3d;
+}
