@@ -2,6 +2,34 @@
 
 @import 'tailwindcss';
 
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-background);
+  color-scheme: dark;
+}
+
+@page {
+  margin: 16mm;
+}
+
+@media print {
+  * {
+    color: black !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
 @theme {
   /* Typography */
   --font-display: 'Bebas Neue', sans-serif;
